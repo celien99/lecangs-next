@@ -1,0 +1,126 @@
+.advan-box {
+  width: 100%;
+  background: #484b61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.advantage-header {
+  margin: 110px 0 64px;
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+.advantage-header h2 {
+  font-size: 55px;
+  color: #fff;
+  line-height: 55px;
+}
+.advantage-header h3 {
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 30px;
+  letter-spacing: 4px;
+}
+.advantage-header span {
+  position: absolute;
+  font-size: 150px;
+  font-weight: 600;
+  color: #a4a4f3;
+  line-height: 150px;
+  letter-spacing: 5px;
+  left: 0;
+  right: 0;
+  top: -20px;
+  opacity: 0.13;
+  margin: auto;
+  z-index: -1;
+}
+.advantage-body {
+  position: relative;
+  z-index: 9;
+  max-width: 1180px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 33.33%);
+  grid-template-rows: repeat(4, 120px);
+  grid-gap: 18px 0px;
+}
+.advantage-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantage-item-desc {
+  margin-left: 16px;
+  width: 280px;
+}
+.advantage-item-text {
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  display: flex;
+}
+.advantage-item-type {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #999999;
+  line-height: 24px;
+  position: relative;
+  display: flex;
+}
+.advantage-item-type::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background: #ed392f;
+  top: 0;
+  left: -16px;
+}
+.car-left {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  bottom: 0;
+  margin: auto;
+  height: max-content;
+  z-index: 1;
+}
+.car-right {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  bottom: 0;
+  margin: auto;
+  height: max-content;
+  z-index: 1;
+  transform: rotateY(180deg);
+}
+.circle-1 {
+  position: absolute;
+  left: 104px;
+  bottom: 40px;
+  width: 142px;
+  height: 142px;
+  opacity: 0.08;
+  border: 25px solid #ffffff;
+  border-radius: 50%;
+}
+.circle-2 {
+  position: absolute;
+  right: 56px;
+  top: 160px;
+  width: 81px;
+  height: 81px;
+  border: 20px solid #383a48;
+  border-radius: 50%;
+}
+.tip-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
