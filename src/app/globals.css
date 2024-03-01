@@ -25,7 +25,41 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.commom-header {
+  margin: 104px auto;
+  max-width: 1180px;
+  position: relative;
+  z-index: 11;
+}
 
+.commom-header h2 {
+  font-size: 55px;
+  color: #ffffff;
+  line-height: 56px;
+}
+
+.commom-header img {
+  margin: 24px auto 20px 42px;
+}
+
+.commom-header h3 {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 31px;
+  letter-spacing: 3px;
+}
+
+.commom-header span {
+  position: absolute;
+  font-size: 150px;
+  font-weight: 600;
+  color: #a4a4f3;
+  line-height: 150px;
+  letter-spacing: 5px;
+  left: 117px;
+  top: -24px;
+  opacity: 0.13;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

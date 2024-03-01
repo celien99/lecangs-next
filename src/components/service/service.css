@@ -1,0 +1,79 @@
+.service-main {
+  background: #3f4154;
+  min-height: 706px;
+  position: relative;
+  overflow: hidden;
+}
+.card-box {
+  display: flex;
+  width: 100%;
+  height: 666px;
+}
+.service_bg {
+  flex: 1;
+  overflow: hidden;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.service_bg:hover {
+  flex: 1.5 1 auto;
+}
+.bg {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.69;
+}
+.service_bg:hover .bg {
+  height: 45%;
+}
+.serviceName {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 64px;
+  margin: auto;
+  width: max-content;
+  padding: 16px 24px;
+  color: #fff;
+  border-radius: 5px;
+  background: #e02329;
+  font-size: 32px;
+  transition: all 0.5s;
+}
+.service_bg:hover .serviceName {
+  bottom: 50%;
+}
+.desc {
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  left: 0;
+  right: 0;
+  top: 60%;
+  margin: auto;
+  opacity: 0;
+  transition: all 0.5s;
+  word-break: break-all;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+.service_bg:hover .desc {
+  opacity: 1;
+}
+.service-tip-1 {
+  position: absolute;
+  right: 180px;
+  top: 56px;
+  font-size: 35px;
+  color: #ffffff;
+  line-height: 42px;
+}

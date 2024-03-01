@@ -1,4 +1,5 @@
 import Advantage from '@/components/advantage/Advantage';
+import Card from '@/components/service/Card';
 import VideoCom from '@/components/video/VideoCom';
 import { Carousel } from 'antd';
 import Image from 'next/image';
@@ -19,6 +20,7 @@ export default function Home() {
       </Carousel>
       <VideoCom />
       <Advantage />
+      <Card />
     </>
   );
 }
