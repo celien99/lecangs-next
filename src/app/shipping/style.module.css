@@ -1,0 +1,178 @@
+.main {
+  padding-top: 42px;
+  background: #3f4154;
+  width: 100%;
+}
+.common {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto 50px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+}
+.common h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.common h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.content {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.top {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.solutionList {
+  width: 1260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.solutionList li {
+  width: 360px;
+  height: 200px;
+  border: 2px solid #fff;
+  margin: 60px 30px 0;
+}
+.solutionList li > div {
+  padding: 45px 60px;
+}
+.solutionList li:nth-of-type(2) > div {
+  padding: 17px 60px;
+}
+.solutionList span {
+  display: inline-block;
+  width: 240px;
+  font-size: 14px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+}
+.solutionList p {
+  background: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 500;
+  color: #333;
+  line-height: 52px;
+}
+.middle {
+  width: 100%;
+  background: #484b61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.middle > p {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  text-indent: 2em;
+  text-align: center;
+}
+.quote {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 50px 175px;
+  background: #fff;
+}
+.quote h3 {
+  font-size: 32px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: bold;
+  color: #333;
+  line-height: 32px;
+  text-align: center;
+}
+.imgbox {
+  position: relative;
+  width: 200px;
+  height: 4px;
+  margin: 32px auto 30px;
+}
+.desc {
+  text-align: center;
+  font-size: 20px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  color: #333;
+  line-height: 30px;
+}
+.getQuote {
+  width: 280px;
+  padding: 10px 50px;
+  background: #fff;
+  border: 2px solid #666;
+  margin: 40px auto 20px;
+  text-align: center;
+}
+.getQuote a {
+  font-size: 20px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 500;
+  color: #333;
+  line-height: 29px;
+  text-decoration: none;
+}
+.quote > a {
+  text-align: center;
+  font-size: 20px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  color: #999;
+  line-height: 20px;
+  text-decoration: none;
+}
+.cooperate {
+  width: 1200px;
+  height: 300px;
+  background: url('/service/png_howtocooperate@2x.png') no-repeat center;
+  background-size: cover;
+  margin: 60px auto 0;
+}
+.cooperate > div {
+  text-align: center;
+  padding: 121px 0;
+}
+.cooperate p {
+  font-size: 20px;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  line-height: 29px;
+}
+.bottom {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
+.bottomImg {
+  position: relative;
+  width: 1200px;
+  height: 980px;
+  margin: 0 auto 120px;
+}
