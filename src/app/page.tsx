@@ -1,5 +1,6 @@
 import Advantage from '@/components/advantage/Advantage';
 import Card from '@/components/service/Card';
+import USAMap from '@/components/uasMap/USAMap';
 import VideoCom from '@/components/video/VideoCom';
 import { Carousel } from 'antd';
 import Image from 'next/image';
@@ -21,6 +22,7 @@ export default function Home() {
       <VideoCom />
       <Advantage />
       <Card />
+      <USAMap />
     </>
   );
 }
