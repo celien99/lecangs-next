@@ -1,0 +1,79 @@
+.coo-main {
+  background: #3f4154;
+  min-height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.col-body {
+  height: (100vh - 352px);
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+}
+.col-items {
+  display: flex;
+  height: 495px;
+  overflow: hidden;
+  justify-content: center;
+  background: #2e303d;
+  padding: 48px 64px;
+  grid-gap: 25px;
+}
+.scroll_div {
+  width: 530px;
+  overflow: hidden;
+}
+.scroll_div li {
+  height: 70px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.scroll_div li:last-child {
+  margin-bottom: 0;
+}
+.scroll_div .pic {
+  position: relative;
+  margin: 0 2% 15px 0;
+  width: 30%;
+  height: 100%;
+}
+.col-bottom-line {
+  margin-left: 70px;
+  width: 439px;
+  height: 15px;
+  background: #e02329;
+}
+.col-right {
+  position: relative;
+  margin-left: 96px;
+  width: 461px;
+  height: 402px;
+}
+.col-circle-1 {
+  position: absolute;
+  top: 220px;
+  left: 158px;
+  width: 81px;
+  height: 81px;
+  border: 15px solid #383a48;
+  border-radius: 50%;
+  z-index: 0;
+}
+.col-circle-2 {
+  position: absolute;
+  top: 280px;
+  right: 292px;
+  width: 81px;
+  height: 81px;
+  border: 15px solid #383a48;
+  border-radius: 50%;
+}
+.col-circle-3 {
+  position: absolute;
+  top: 20px;
+  right: 147px;
+  width: 145px;
+  height: 145px;
+  border: 20px solid #383a48;
+  border-radius: 50%;
+}
