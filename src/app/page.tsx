@@ -1,4 +1,5 @@
 import Advantage from '@/components/advantage/Advantage';
+import News from '@/components/news/News';
 import Card from '@/components/service/Card';
 import USAMap from '@/components/uasMap/USAMap';
 import VideoCom from '@/components/video/VideoCom';
@@ -23,6 +24,7 @@ export default function Home() {
       <Advantage />
       <Card />
       <USAMap />
+      <News />
     </>
   );
 }
