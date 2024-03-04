@@ -60,6 +60,36 @@ body {
   top: -24px;
   opacity: 0.13;
 }
+.common-header {
+  margin: 0 20px 50px;
+}
+.common-header h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+.common-header img {
+  margin: 4px 8px;
+}
+.common-header h3 {
+  width: 1200px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 14px;
+  letter-spacing: normal;
+  margin: 0 auto;
+}
+.common-header span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #a4a4f3;
+  line-height: 56px;
+  letter-spacing: 1px;
+  left: 32px;
+  top: 0;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
