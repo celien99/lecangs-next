@@ -42,7 +42,7 @@ export default function News() {
       </div>
       <div className='news-body'>
         {newsList.map((item) => (
-          <div className='news-item'>
+          <div className='news-item' key={item.id}>
             <a href={item.href}>
               <Image
                 src={item.imgSrc}
