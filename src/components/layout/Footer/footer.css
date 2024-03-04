@@ -125,3 +125,142 @@ h1 {
   color: #ffffff;
   line-height: 14px;
 }
+.content-mobile {
+  display: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    display: none;
+  }
+  .content-mobile {
+    display: block;
+    padding: 0 77px;
+  }
+  .company-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 102px 0 72px;
+  }
+  .company-info .logo {
+    position: relative;
+    width: 445px;
+    height: 87px;
+  }
+  .content-mobile .company-info p {
+    font-size: 51px;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 77px;
+  }
+  .friend-link {
+    padding-top: 87px;
+    border-top: 5px solid #282a3b;
+  }
+  .friend-link > p {
+    font-size: 61px;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 77px;
+    text-align: left;
+  }
+  .friend-link .linkList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 102px 0 72px 0;
+  }
+  .friend-link .linkList li a {
+    display: inline-block;
+    font-size: 61px;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 77px;
+    margin-bottom: 61px;
+    margin-right: 123px;
+  }
+  .contact-us,
+  .bottom {
+    padding-top: 102px;
+    border-top: 5px solid #282a3b;
+  }
+  .contact-us > p {
+    font-size: 61px;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 77px;
+    margin-bottom: 41px;
+    text-align: left;
+  }
+  .contact-us > p:first-child {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 102px;
+  }
+  .contact-us > p:nth-of-type(2)::before {
+    content: url(/icon_dw.png);
+    width: 61px;
+    height: 61px;
+    margin-right: 31px;
+  }
+  .contact-us > p:nth-of-type(3)::before {
+    content: url(/icon_ph.png);
+    width: 61px;
+    height: 61px;
+    margin-right: 31px;
+  }
+  .contact-us > p:nth-of-type(4)::before {
+    content: url(/icon_fax.png);
+    width: 61px;
+    height: 61px;
+    margin-right: 31px;
+  }
+  .bottom h1 {
+    font-size: 82px;
+    font-family: SourceHanSansSC, SourceHanSansSC;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 77px;
+    text-align: center;
+    margin-bottom: 123px;
+  }
+  .bottom .emainInput .inputBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom .emainInput .inputBox .input {
+    width: 1618px;
+    height: 205px;
+    background: #31333f;
+    backdrop-filter: blur(7px);
+  }
+  .inputBox .input input {
+    padding-left: 56px;
+    font-size: 61px;
+    font-family: SourceHanSansSC, SourceHanSansSC;
+    line-height: 77px;
+  }
+  .inputBox .btn {
+    width: 348px;
+    height: 205px;
+    backdrop-filter: blur(0px);
+  }
+  .inputBox .btn button .svg {
+    width: 119px;
+    height: 118px;
+  }
+  .hint {
+    font-size: 51px;
+    font-family: SourceHanSansSC, SourceHanSansSC;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 77px;
+    text-align: center;
+    margin: 51px auto 0;
+    padding-bottom: 154px;
+  }
+}
