@@ -14,7 +14,7 @@ export default function Banner(props: bannerType) {
     if (pathname && map.has(pathname)) {
       setTitle(map.get(pathname));
     }
-  });
+  }, [pathname]);
   return (
     <>
       <div
