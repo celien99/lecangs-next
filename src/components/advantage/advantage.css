@@ -100,6 +100,11 @@
   z-index: 1;
   transform: rotateY(180deg);
 }
+.car-box {
+  position: relative;
+  width: 300px;
+  height: 297px;
+}
 .circle-1 {
   position: absolute;
   left: 104px;
@@ -123,4 +128,40 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 140px;
+  height: 160px;
 }
+.advantage-item > .icon {
+  position: relative;
+  width: 30px;
+  height: 36px;
+}
+/* @media screen and (max-width: 750px) {
+  .car-left,
+  .car-right {
+    display: none;
+  }
+  .advantage-body {
+    grid-template-columns: repeat(auto-fill, 33.33%);
+    grid-template-rows: repeat(4, 2.3rem);
+    grid-gap: 0.36rem 0;
+    margin: 0 0.3rem;
+  }
+  .advantage-item {
+    display: block;
+    text-align: center;
+    background: #37394a;
+    border-radius: 5px;
+    margin: 18px;
+    padding: 72px;
+  }
+  .advantage-item > .icon {
+    width: 92px;
+    height: 113px;
+  }
+  .advantage-item-desc {
+    margin: 0;
+    width: auto;
+  }
+  
+} */

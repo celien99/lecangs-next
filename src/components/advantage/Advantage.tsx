@@ -81,7 +81,14 @@ export default function Advantage() {
       <div className='advantage-body'>
         {dataList.map((item, index) => (
           <div className='advantage-item' key={index}>
-            <Image src={item.icon} alt='' width={30} height={36} />
+            <div className='icon'>
+              <Image
+                src={item.icon}
+                alt=''
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
             <div className='advantage-item-desc'>
               <p className='advantage-item-text'>
                 <span className='text-count'>{item.count}</span>
@@ -92,22 +99,24 @@ export default function Advantage() {
         ))}
       </div>
       <div className='car-left'>
-        <Image
-          src='/front/pic_kache_bg.png'
-          alt=''
-          width={300}
-          height={0}
-          style={{ objectFit: 'cover' }}
-        />
+        <div className='car-box'>
+          <Image
+            src='/front/pic_kache_bg.png'
+            alt=''
+            fill
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
       </div>
       <div className='car-right'>
-        <Image
-          src='/front/pic_kache_bg.png'
-          alt=''
-          width={300}
-          height={297}
-          style={{ objectFit: 'cover' }}
-        />
+        <div className='car-box'>
+          <Image
+            src='/front/pic_kache_bg.png'
+            alt=''
+            fill
+            style={{ objectFit: 'cover' }}
+          />
+        </div>
       </div>
       <div className='circle-1'></div>
       <div className='circle-2'></div>
@@ -115,8 +124,7 @@ export default function Advantage() {
         <Image
           src='/front/bg_dd.png'
           alt=''
-          width={140}
-          height={160}
+          fill
           style={{ objectFit: 'cover' }}
         />
       </div>
