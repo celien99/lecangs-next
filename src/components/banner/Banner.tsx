@@ -1,10 +1,20 @@
+'use client';
+import { map } from '@/utils/staticData';
+import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import './banner.css';
 type bannerType = {
   banner: string;
-  title: string;
   desc?: string;
 };
-import './banner.css';
 export default function Banner(props: bannerType) {
+  const pathname = usePathname();
+  const [title, setTitle] = useState<string>();
+  useEffect(() => {
+    if (pathname && map.has(pathname)) {
+      setTitle(map.get(pathname));
+    }
+  });
   return (
     <>
       <div
@@ -12,7 +22,7 @@ export default function Banner(props: bannerType) {
         style={{ backgroundImage: `url(${props.banner})` }}
       >
         <div className='title'>
-          <h2>{props.title}</h2>
+          <h2>{title}</h2>
           <p>{props.desc}</p>
         </div>
       </div>
