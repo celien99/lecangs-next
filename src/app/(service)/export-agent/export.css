@@ -1,0 +1,64 @@
+.top {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.common {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+.common h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+.common h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.export-content {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+.export-content .content-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto 216px;
+}
+.content-list li {
+  width: 595px;
+  background: #52556f;
+  padding: 49px 55px 74px;
+  cursor: pointer;
+}
+.content-list li .title {
+  text-align: center;
+  font-size: 25px;
+  font-family: SourceHanSansCN-Bold, SourceHanSansCN;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 37px;
+}
+.content-list li p {
+  width: 485px;
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.content-list li:hover {
+  background: #cd3939;
+}
