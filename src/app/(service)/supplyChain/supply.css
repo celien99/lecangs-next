@@ -1,0 +1,65 @@
+.supply {
+  background: #3f4154;
+  padding: 110px 0 50px;
+}
+.common {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.common h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+.common h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.advantage {
+  padding: 110px 0;
+  background: #484b61;
+}
+.advantage > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 50px auto 116px;
+}
+.advantage > ul li {
+  width: 292px;
+  height: 291px;
+  cursor: pointer;
+}
+.advantage > ul li:first-child {
+  background: url('/service/diya.png') no-repeat center;
+  background-size: cover;
+}
+.advantage > ul li:first-child:hover {
+  background: url('/service/diyaactive.png') no-repeat center;
+}
+.advantage > ul li:nth-of-type(2) {
+  background: url('/service/qinianhualv.png') no-repeat center;
+  background-size: cover;
+}
+.advantage > ul li:nth-of-type(2):hover {
+  background: url('/service/qinianhualvactive.png') no-repeat center;
+}
+.advantage > ul li:nth-of-type(3) {
+  background: url('/service/zhifudaikuan.png') no-repeat center;
+  background-size: cover;
+}
+.advantage > ul li:nth-of-type(3):hover {
+  background: url('/service/zhifudaikuanactive.png') no-repeat center;
+}
+.advantage > ul li:nth-of-type(4) {
+  background: url('/service/rmb.png') no-repeat center;
+  background-size: cover;
+}
+.advantage > ul li:nth-of-type(4):hover {
+  background: url('/service/rmbactive.png') no-repeat center;
+}
