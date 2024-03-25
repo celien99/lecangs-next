@@ -27,3 +27,20 @@
   letter-spacing: 5px;
   margin: 0 auto;
 }
+.navbar-tab {
+  padding-top: 42px;
+  background-color: #3f4154;
+}
+.tab-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.tabImage {
+  position: relative;
+  width: 216px;
+  height: 175px;
+}

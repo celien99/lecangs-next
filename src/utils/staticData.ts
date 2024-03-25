@@ -12,4 +12,38 @@ const map = new Map<string, string>([
   ['/h-support', '帮助与支持'],
 ]);
 
-export { map };
+// service 模块 tabtup
+export interface tabType {
+  path: string;
+  activeImage: string;
+  inactiveImage: string;
+}
+const tabList: Array<tabType> = [
+  {
+    path: '/shipping',
+    activeImage: '/service/tab/touchengactive.png',
+    inactiveImage: '/service/tab/touchenhaiyun.png',
+  },
+  {
+    path: '/overseas',
+    activeImage: '/service/tab/icon_haiwaicangchuactive.png',
+    inactiveImage: '/service/tab/icon_haiwaicangchu.png',
+  },
+  {
+    path: '/drop-shipping',
+    activeImage: '/service/tab/icon_yijiandaifactive.png',
+    inactiveImage: '/service/tab/icon_yijiandaifa.png',
+  },
+  {
+    path: '/export-agent',
+    activeImage: '/service/tab/dailichukouactive.png',
+    inactiveImage: '/service/tab/dailichukou.png',
+  },
+  {
+    path: '/supplyChain',
+    activeImage: '/service/tab/gongyinglianactive.png',
+    inactiveImage: '/service/tab/gongylian.png',
+  },
+];
+
+export { map, tabList };
