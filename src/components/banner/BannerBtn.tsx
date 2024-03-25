@@ -11,7 +11,7 @@ export default function BannerBtn(prop: { tabList: Array<tabType> }) {
     <div className='navbar-tab'>
       <ul className='tab-list'>
         {tabList.map((item: tabType) => (
-          <Link href={item.path}>
+          <Link href={item.path} key={item.path}>
             <div className='tabImage'>
               <Image
                 src={
