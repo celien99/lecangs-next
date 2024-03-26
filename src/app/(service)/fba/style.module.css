@@ -1,0 +1,123 @@
+.top {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.middle {
+  width: 100%;
+  background: #484b61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.bottom {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
+.common {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto 50px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+}
+.common h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.common h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.transport {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+.transport li {
+  width: 595px;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 56px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+.normal {
+  position: relative;
+  width: 64px;
+  height: 81px;
+  margin: 0 auto;
+}
+.active {
+  display: none;
+  position: relative;
+  width: 64px;
+  height: 81px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 25px;
+  font-family: SourceHanSansCN-Bold, SourceHanSansCN;
+  font-weight: bold;
+  color: #666666;
+  line-height: 38px;
+  margin: 26px 0 5px;
+}
+.transport li p {
+  width: 425px;
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #999999;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.transport li:hover {
+  background-color: #e02329;
+  color: #fff;
+}
+.transport li:hover .active {
+  display: block;
+}
+.transport li:hover .normal {
+  display: none;
+}
+.transport li:hover .title,
+.transport li:hover p {
+  color: #fff;
+}
+.cooperate {
+  position: relative;
+  width: 960px;
+  height: 150px;
+  margin: 0 auto 220px;
+}
+.cooperate img {
+  transition:
+    opacity 2s ease-in-out,
+    transform 2s ease-in-out;
+  animation: trans 1s 1;
+}
+@keyframes trans {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

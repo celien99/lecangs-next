@@ -5,6 +5,7 @@ const map = new Map<string, string>([
   ['/overseas', '海外仓储'],
   ['/export-agent', '代理出口'],
   ['/supplyChain', '供应链服务'],
+  ['/fba', 'FBA转运'],
   ['/lc-promise', '我们的承诺'],
   ['/amazon-span', '亚马逊SPN'],
   ['/lc-system', '乐仓系统'],
