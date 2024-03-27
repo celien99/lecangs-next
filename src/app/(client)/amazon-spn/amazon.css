@@ -1,0 +1,28 @@
+.logo {
+  width: 214px;
+  margin: 30px auto 0;
+}
+.spn-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1020px;
+  margin: 0 auto;
+}
+.spn-content .spn_left {
+  position: relative;
+  width: 589px;
+  height: 622px;
+  margin-right: 80px;
+}
+.spn-content .spn_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  flex: 1;
+}
+.spn_right li {
+  position: relative;
+  width: 351px;
+  height: 94px;
+}

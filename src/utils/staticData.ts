@@ -7,7 +7,7 @@ const map = new Map<string, string>([
   ['/supplyChain', '供应链服务'],
   ['/fba', 'FBA转运'],
   ['/promise', '我们的承诺'],
-  ['/amazon-span', '亚马逊SPN'],
+  ['/amazon-spn', '亚马逊SPN'],
   ['/lc-system', '乐仓系统'],
   ['/kehuanli', '客户案例'],
   ['/h-support', '帮助与支持'],
@@ -53,7 +53,7 @@ const clientTab: Array<tabType> = [
     inactiveImage: '/client/tab/icon_lecangchengnuo_nav.png',
   },
   {
-    path: '/azmazon-spn',
+    path: '/amazon-spn',
     activeImage: '/client/tab/icon_yamaxun.png',
     inactiveImage: '/client/tab/icon_yamaxun_nav.png',
   },
