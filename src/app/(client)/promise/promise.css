@@ -1,0 +1,153 @@
+.promise-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+.promise-content-list {
+  width: 380px;
+  background: #484b61;
+  padding: 50px 80px;
+}
+.promise-content-list .title {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.promise-content-list .title h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.promise-content-list .title span {
+  position: absolute;
+  width: 100%;
+  font-size: 46px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.15);
+  left: 0;
+  right: 0;
+  top: 25px;
+  opacity: 0.5;
+  margin: auto;
+}
+
+.promise-content-list .goodness {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  background: #e02329;
+  margin-bottom: 30px;
+}
+
+.promise-content-list .first-text,
+.promise-content-list .second-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0.4rem;
+}
+
+.promise-content-list > span {
+  font-size: 50px;
+  font-family: DINAlternate-Bold, DINAlternate;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cost-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 50px auto 0;
+}
+
+.cost-content .left-img {
+  position: relative;
+  width: 922px;
+  margin-right: 20px;
+}
+
+.cost-content .left-img-mobile {
+  display: none;
+  width: 100%;
+}
+
+.cost-content .right-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cost-content .right-list li {
+  display: flex;
+  align-items: center;
+  background: #515469;
+  padding: 26px 35px;
+  font-size: 22px;
+  font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+  font-weight: 500;
+  color: #fff;
+}
+
+.cost-content .right-list li svg {
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+}
+
+.common-header > .button {
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: SourceHanSansCN-Bold, SourceHanSansCN;
+  color: #fff;
+  padding: 15px 65px;
+  background: #e02329;
+  margin: 50px auto 0;
+}
+
+.access-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 110px auto 220px;
+}
+
+.access-content .access-content-list .image {
+  position: relative;
+  padding: 0 90px;
+}
+
+.access-content .access-content-list .image:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 2px;
+  height: 70px;
+  margin: auto;
+  background: #6b6e88;
+}
+
+.access-content .access-content-list:last-child .image:after {
+  display: none;
+}
+
+.access-content .access-content-list p {
+  width: 219px;
+  font-size: 24px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  line-height: 40px;
+  margin: 60px auto 0;
+  text-align: center;
+}

@@ -94,3 +94,54 @@ body {
   left: 32px;
   top: 0;
 }
+
+.common {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto 50px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+}
+.common h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.common h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 17px auto 0;
+}
+.common .button {
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 15px 65px;
+  background-color: #e02329;
+  margin: 50px auto 0;
+}
+.top-content {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.middle-content {
+  width: 100%;
+  background: #484b61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0;
+}
+.bottom-content {
+  width: 100%;
+  background: #3f4154;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
