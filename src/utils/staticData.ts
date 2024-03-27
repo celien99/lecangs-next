@@ -6,7 +6,7 @@ const map = new Map<string, string>([
   ['/export-agent', '代理出口'],
   ['/supplyChain', '供应链服务'],
   ['/fba', 'FBA转运'],
-  ['/lc-promise', '我们的承诺'],
+  ['/promise', '我们的承诺'],
   ['/amazon-span', '亚马逊SPN'],
   ['/lc-system', '乐仓系统'],
   ['/kehuanli', '客户案例'],
@@ -46,5 +46,32 @@ const tabList: Array<tabType> = [
     inactiveImage: '/service/tab/gongylian.png',
   },
 ];
+const clientTab: Array<tabType> = [
+  {
+    path: '/promise',
+    activeImage: '/client/tab/icon_lecangchengnuo_active.png',
+    inactiveImage: '/client/tab/icon_lecangchengnuo_nav.png',
+  },
+  {
+    path: '/azmazon-spn',
+    activeImage: '/client/tab/icon_yamaxun.png',
+    inactiveImage: '/client/tab/icon_yamaxun_nav.png',
+  },
+  {
+    path: '/lc-system',
+    activeImage: '/client/tab/icon_lecangxitong.png',
+    inactiveImage: '/client/tab/icon_lecangxitong_nav.png',
+  },
+  {
+    path: '/kehuanli',
+    activeImage: '/client/tab/icon_hezuoanli.png',
+    inactiveImage: '/client/tab/icon_hezuoanli_nav.png',
+  },
+  {
+    path: '/h-support',
+    activeImage: '/client/tab/icon_bangzhuzhichi.png',
+    inactiveImage: '/client/tab/icon_bangzhuzhichi_nav.png',
+  },
+];
 
-export { map, tabList };
+export { map, tabList, clientTab };
