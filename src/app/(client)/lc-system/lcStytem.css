@@ -1,0 +1,112 @@
+.system-functions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+.system-functions li {
+  width: 380px;
+  height: 340px;
+  background: #fff;
+  padding: 50px 34px 0;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.system-functions li .svg-bg svg,
+.system-functions li .svg-bg-active svg {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+}
+.system-functions li .svg-bg-active {
+  display: none;
+}
+.system-functions li:hover .svg-bg-active {
+  display: block;
+}
+.system-functions li:hover .svg-bg {
+  display: none;
+}
+.system-functions li:hover {
+  background: #df2228;
+}
+.system-functions li:hover .function-text > div,
+.system-functions li:hover .function-text > p {
+  color: #fff;
+}
+.function-text > div {
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: bold;
+  color: #333333;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.function-text > p {
+  font-size: 18px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #666666;
+  text-align: center;
+  line-height: 30px;
+}
+.superiority-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 50px auto 110px;
+}
+.superiority-content li {
+  width: 278px;
+  height: 378px;
+  background: #52556f;
+  padding: 35px 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+.superiority-content li svg {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 22px;
+}
+.superiority-content li:nth-of-type(3) svg {
+  width: 60px;
+}
+.superiority-content li > div {
+  font-size: 20px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.superiority-content li > p {
+  font-size: 18px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.superiority-content li:hover {
+  background: #df2228;
+}
+.procedure-bottom {
+  width: 100%;
+  background: #484b61;
+  position: relative;
+  overflow-x: hidden;
+  padding: 110px 0 220px;
+}
+.procedure-img {
+  position: relative;
+  width: 1089px;
+  height: 165px;
+  margin: 50px auto 0;
+}
