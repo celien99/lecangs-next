@@ -1,10 +1,13 @@
 FROM node:latest
 
 # 设置工作目录
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/lecangs-next
 
 # 拷贝 package.json 和 package-lock.json（如果存在）
 COPY package*.json ./
+
+# 配置npm镜像
+RUN npm config set registry https://registry.npm.taobao.org
 
 # 安装项目依赖
 RUN npm install
